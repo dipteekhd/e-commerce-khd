@@ -1,0 +1,21 @@
+.filter {
+  display: flex;
+  align-items: center;
+}
+.filter button {
+  margin-left: auto;
+}
+.products {
+  flex-direction: column;
+}
+.card__media {
+  width: 100%;
+}
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.icon-button__icon--on {
+  color: red;
+}
