@@ -1,0 +1,14 @@
+.home__title {
+  color: var(--secondary);
+}
+.home {
+  flex-direction: column;
+}
+.category {
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 80%;
+}
+.card__media {
+  width: 100%;
+}

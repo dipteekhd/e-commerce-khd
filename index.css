@@ -1,0 +1,20 @@
+body {
+  background-color: var(--lynx-white);
+}
+header {
+  z-index: 1;
+}
+.drawer {
+  display: none;
+  border: none;
+  background-color: var(--white);
+}
+@media screen and (min-width: 768px) {
+  .drawer {
+    display: block !important;
+    position: sticky;
+    top: 4rem;
+    height: 45rem;
+    overflow-y: auto;
+  }
+}
