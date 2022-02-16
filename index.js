@@ -8,6 +8,5 @@ menuToggle.addEventListener("click", () => {
       !drawer.style.display || drawer.style.display == "none"
         ? "block"
         : "none";
-  } else {
   }
 });
