@@ -8,14 +8,29 @@
 .products {
   flex-direction: column;
 }
-.card__media {
-  width: 100%;
-}
+
 .product-list {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
 }
-.icon-button__icon--on {
-  color: red;
+
+/* Start-Product Image css */
+.card__badge-icon {
+  height: 16rem;
 }
+.card__media {
+  object-fit: contain;
+  max-height: 100%;
+  height: 80%;
+  width: 70%;
+}
+
+.card__action--like {
+  top: 0;
+  color: var(--primary);
+}
+.icon-button__icon--on {
+  color: var(--primary);
+}
+/* End -Product Image css */
