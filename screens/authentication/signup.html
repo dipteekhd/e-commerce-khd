@@ -41,39 +41,41 @@
 
     <main class="authenticate center-content">
         <div class="card rounded-sm">
-            <div class="card__information p-sm-b">
-                <div class="card__primary-info m-sm-all">
-                    <h3 class="card__title text-center">Signup</h3>
-                    <div class="input-container p-sm-b">
-                        <label for="email">Email address</label>
-                        <input id="email" class="input-container__auth p-xs-all rounded-sm" type="text"
-                            placeholder="Enter Email">
+            <form>
+                <div class="card__information p-sm-b">
+                    <div class="card__primary-info m-sm-all">
+                        <h3 class="card__title text-center">Signup</h3>
+                        <div class="input-container p-sm-b">
+                            <label for="email">Email address</label>
+                            <input id="email" name="email" class="input-container__auth p-xs-all rounded-sm" type="text"
+                                placeholder="Enter Email">
+                        </div>
+                        <div class="input-container p-sm-b">
+                            <label for="password">Password</label>
+                            <input id="password" name="password" class="input-container__auth p-xs-all rounded-sm"
+                                type="password" placeholder="Enter Password">
+                        </div>
+                        <div class="input-container p-sm-b">
+                            <label for="confirm">Confirm Password</label>
+                            <input id="confirm" name="confirm" class="input-container__auth p-xs-all rounded-sm"
+                                type="password" placeholder="Re-Enter Password">
+                        </div>
                     </div>
-                    <div class="input-container p-sm-b">
-                        <label for="password">Password</label>
-                        <input id="password" class="input-container__auth p-xs-all rounded-sm" type="password"
-                            placeholder="Enter Password">
-                    </div>
-                    <div class="input-container p-sm-b">
-                        <label for="confirm">Confirm Password</label>
-                        <input id="confirm" class="input-container__auth p-xs-all rounded-sm" type="password"
-                            placeholder="Re-Enter Password">
+
+                    <div class="card__secondary-info text-grey-500 m-md-hr">
+                        <label for="accept">
+                            <input id="accept" name="accept" type="checkbox">
+                            <span class="m-xs-l">I accept all Terms & Conditions</span>
+                        </label>
                     </div>
                 </div>
 
-                <div class="card__secondary-info text-grey-500 m-md-hr">
-                    <label for="accept">
-                        <input id="accept" type="checkbox">
-                        <span class="m-xs-l">I accept all Terms & Conditions</span>
-                    </label>
+                <div class="card__action-stack m-sm-all">
+                    <a class="btn btn--primary p-xs-vr p-sm-hr m-sm-b rounded-sm bold-font">CREATE NEW ACCOUNT</a>
+                    <a class="btn btn--primary-link btn--active semibold-font"
+                        href="/screens/authentication/login.html">Login</a>
                 </div>
-            </div>
-
-            <div class="card__action-stack m-sm-all">
-                <a class="btn btn--primary p-xs-vr p-sm-hr m-sm-b rounded-sm bold-font">CREATE NEW ACCOUNT</a>
-                <a class="btn btn--primary-link btn--active semibold-font"
-                    href="/screens/authentication/login.html">Login</a>
-            </div>
+            </form>
         </div>
     </main>
 </body>

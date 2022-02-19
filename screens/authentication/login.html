@@ -41,35 +41,37 @@
 
     <main class="authenticate center-content">
         <div class="card rounded-sm">
-            <div class="card__information p-sm-b">
-                <div class="card__primary-info m-sm-all">
-                    <h3 class="card__title text-center">Login</h3>
-                    <div class="input-container p-sm-b">
-                        <label for="email">Email address</label>
-                        <input id="email" class="input-container__auth p-xs-all rounded-sm" type="text"
-                            placeholder="Enter Email">
+            <form>
+                <div class="card__information p-sm-b">
+                    <div class="card__primary-info m-sm-all">
+                        <h3 class="card__title text-center">Login</h3>
+                        <div class="input-container p-sm-b">
+                            <label for="email">Email address</label>
+                            <input id="email" name="email" class="input-container__auth p-xs-all rounded-sm" type="text"
+                                placeholder="Enter Email">
+                        </div>
+                        <div class="input-container p-sm-b">
+                            <label for="password">Password</label>
+                            <input id="password" name="password" class="input-container__auth p-xs-all rounded-sm"
+                                type="password" placeholder="Enter Password">
+                        </div>
                     </div>
-                    <div class="input-container p-sm-b">
-                        <label for="password">Password</label>
-                        <input id="password" class="input-container__auth p-xs-all rounded-sm" type="password"
-                            placeholder="Enter Password">
+
+                    <div class="card__secondary-info text-grey-500 m-md-hr">
+                        <label for="remember">
+                            <input id="remember" name="remember" type="checkbox">
+                            <span class="m-xs-l">Remember me</span>
+                        </label>
+                        <a class="btn btn--primary-link btn--active semibold-font" href="#">Forget Password?</a>
                     </div>
                 </div>
 
-                <div class="card__secondary-info text-grey-500 m-md-hr">
-                    <label for="remember">
-                        <input id="remember" type="checkbox">
-                        <span class="m-xs-l">Remember me</span>
-                    </label>
-                    <a class="btn btn--primary-link btn--active semibold-font" href="#">Forget Password?</a>
+                <div class="card__action-stack m-sm-all">
+                    <a class="btn btn--primary p-xs-vr p-sm-hr m-sm-b rounded-sm bold-font">LOGIN</a>
+                    <a class="btn btn--primary-link btn--active semibold-font"
+                        href="/screens/authentication/signup.html">Create New Account</a>
                 </div>
-            </div>
-
-            <div class="card__action-stack m-sm-all">
-                <a class="btn btn--primary p-xs-vr p-sm-hr m-sm-b rounded-sm bold-font">LOGIN</a>
-                <a class="btn btn--primary-link btn--active semibold-font"
-                    href="/screens/authentication/signup.html">Create New Account</a>
-            </div>
+            </form>
         </div>
     </main>
 </body>
