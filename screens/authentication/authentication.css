@@ -1,0 +1,15 @@
+.btn {
+  text-align: center;
+}
+.authenticate {
+  height: 30rem;
+}
+.authenticate .card__secondary-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.authenticate .input-container__auth {
+  width: 100%;
+  border: 1px solid var(--grey);
+}
