@@ -1,4 +1,6 @@
-# e-commerce-khd - E-commerce web application
+# e-commerce-khd -
+
+E-commerce web application for Gorgeous Jewellery
 
 # Technologies
 
