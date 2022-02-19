@@ -15,4 +15,4 @@ E-commerce web application for Gorgeous Jewellery
 - [Cart Management Page](https://e-commerce-khd.netlify.app/screens/cart/cart.html)
 - [Wishlist Management Page](https://e-commerce-khd.netlify.app/screens/wish-list/wish-list.html)
 - [Login Page](https://e-commerce-khd.netlify.app/screens/authentication/login.html)
-- [Signin Page](https://e-commerce-khd.netlify.app/screens/authentication/signup.html)
+- [Signup Page](https://e-commerce-khd.netlify.app/screens/authentication/signup.html)
