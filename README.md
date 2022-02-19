@@ -1,4 +1,4 @@
-# e-commerce-khd -
+# e-commerce-khd
 
 E-commerce web application for Gorgeous Jewellery
 
